@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "https://api.spacexdata.com/v5/launches/";
+const baseURL = "https://www.alphavantage.co";
 
 export const axiosClient = axios.create({
     baseURL: baseURL,
